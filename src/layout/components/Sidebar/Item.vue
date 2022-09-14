@@ -17,8 +17,8 @@ export default {
     const vnodes = []
 
     if (icon) {
-      if (icon.includes('el-icon')) {
-        vnodes.push(<i class={[icon, 'sub-el-icon']} />)
+      if (icon.includes('el-icons.js')) {
+        vnodes.push(<i class={[icon, 'sub-el-icons.js']}/>)
       } else {
         vnodes.push(<svg-icon icon-class={icon}/>)
       }

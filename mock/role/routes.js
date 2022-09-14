@@ -114,7 +114,7 @@ const asyncRoutes = [
   },
 
   {
-    path: '/icon',
+    path: '/icons.js',
     component: 'layout/Layout',
     children: [
       {

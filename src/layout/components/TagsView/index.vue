@@ -266,7 +266,7 @@ export default {
 </style>
 
 <style lang="scss">
-//reset element css of el-icon-close
+//reset element css of el-icons.js-close
 .tags-view-wrapper {
   .tags-view-item {
     .el-icon-close {

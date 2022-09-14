@@ -42,7 +42,7 @@ export default {
         customClass: 'theme-message',
         type: 'success',
         duration: 0,
-        iconClass: 'el-icon-loading'
+        iconClass: 'el-icons.js-loading'
       })
 
       const getHandler = (variable, id) => {

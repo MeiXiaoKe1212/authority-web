@@ -61,33 +61,32 @@ export default {
   overflow-y: auto;
 }
 
-.el-dialog wrapper {
-
+.el-dialog__wrapper {
   ::v-deep .el-dialog {
     border-top-left-radius: 7px !important;
     border-top-right-radius: 7px !important;
 
-    .el-dialog header {
+    .el-dialog__header {
       border-top-left-radius: 7px !important;
       border-top-right-radius: 7px !important;
       background-color: #1890ff;
 
-      .el-dialog title {
+      .el-dialog__title {
         color: #fff;
         font-size: 15px;
         font-weight: 700;
       }
 
-      .el-dialog close {
+      .el-dialog__close {
         color: #fff;
       }
     }
 
-    .el-dialog body {
+    .el-dialog__body {
       padding: 10px 10px !important;
     }
 
-    .el-dialog footer {
+    .el-dialog__footer {
       border-top: 1px solid #e8eaec !important;
       padding: 10px !important;
     }

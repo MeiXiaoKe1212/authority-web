@@ -25,7 +25,7 @@ import nestedRouter from './modules/nested'
  * meta : {
     roles: ['admin','editor']    control the page roles (you can set multiple roles)
     title: 'title'               the name show in sidebar and breadcrumb (recommend set)
-    icon: 'svg-name'/'el-icon-x' the icon show in the sidebar
+    icons.js: 'svg-name'/'el-icons.js-x' the icons.js show in the sidebar
     noCache: true                if set true, the page will no be cached(default is false)
     affix: true                  if set true, the tag will affix in the tags-view
     breadcrumb: false            if set false, the item will hidden in breadcrumb(default is true)
@@ -133,7 +133,7 @@ export const asyncRoutes = [
   },
 
   {
-    path: '/icon',
+    path: '/icons.js',
     component: Layout,
     children: [
       {
@@ -158,7 +158,7 @@ export const asyncRoutes = [
     name: 'Example',
     meta: {
       title: 'Example',
-      icon: 'el-icon-s-help'
+      icon: 'el-icons.js-s-help'
     },
     children: [
       {

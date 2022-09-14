@@ -14,13 +14,22 @@ import App from './App'
 import store from './store'
 import router from './router'
 
-import './icons' // icon
+import './icons' // icons.js
 import './permission' // permission control
 import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
 
 import myconfirm from '@/utils/myconfirm'
+
+//导入清空表单工具
+import resetForm from '@/utils/resetForm'
+
+Vue.prototype.$resetForm = resetForm
+//导入快速复制对象工具
+import objCopy from '@/utils/objCopy'
+
+Vue.prototype.$objCopy = objCopy
 
 Vue.prototype.$myconfirm = myconfirm
 
